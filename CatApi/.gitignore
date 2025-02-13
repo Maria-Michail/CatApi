@@ -1,0 +1,43 @@
+# Ignore Visual Studio specific files
+.vscode/
+*.code-workspace
+.vs/
+
+# Ignore build output and logs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.db
+*.app
+*.log
+
+# Ignore user-specific files
+*.user
+*.suo
+*.sln.ide
+*.csproj.user
+*.vbproj.user
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore environment settings
+.env
+*.config
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore JetBrains Rider / Resharper files
+.idea/
+*.dotSettings
+
+# Ignore any temporary files
+~$*
+Thumbs.db
