@@ -13,8 +13,8 @@
    dotnet ef database update
 
 ## To run the application:
-```bash
- dotnet run
+   ```bash
+   dotnet run
 
 ## Endpoints
 
